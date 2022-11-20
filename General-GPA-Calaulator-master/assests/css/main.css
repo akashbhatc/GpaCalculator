@@ -1,0 +1,34 @@
+:root{
+    --web-primary:#F2DEBA;
+    --web-secondary:#EEEEEE;
+}
+
+
+
+body{
+    background: var(--web-secondary);
+}
+
+.logo{
+    width:2rem;
+}
+
+.hero{
+    height: 92vh;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }

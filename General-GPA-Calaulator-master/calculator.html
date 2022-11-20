@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="./assests/images/favicon.ico">
+    <link rel="stylesheet" href="./assests/css/main.css">
+    <title>SGPA-CGPA Calculator | Home</title>
+</head>
+
+<body>
+
+    <!-- As a link -->
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assests/images/logo.png" alt="logo" class="logo">
+                &nbsp; SGPA-CGPA Calculator </a>
+        </div>
+    </nav>
+<body>
+
+  <div class="template">
+    <h2>Calculate Your SGPA</h2>
+    <table>
+      <tr>
+        <th> </th>
+        <th>Credit </th>
+        <th>Grade</th>
+      </tr>
+      <!-- 1st -->
+      <tr>
+        <td>Subject1: </td>
+        <td> <input id="myCredit1" type="text" > </td>
+        <td><input id="myInput1" type="text"></td>
+      </tr>
+      <!-- 2nd -->
+      <tr>
+        <td>Subject2: </td>
+        <td><input id="myCredit2" type="text"></td>
+        <td><input id="myInput2" type="text"></td>
+      </tr>
+      <!-- 3rd -->
+      <tr>
+        <td> Subject3:</td>
+        <td><input id="myCredit3" type="text"></td>
+        <td><input id="myInput3" type="text"></td>
+      </tr>
+      <!-- 4th-->
+      <tr>
+        <td>Subject4:</td>
+        <td><input id="myCredit4" type="text"></td>
+        <td><input id="myInput4" type="text"></td>
+      </tr>
+
+      <!--5th -->
+      <tr>
+        <td>Subject5: </td>
+        <td> <input id="myCredit5" type="text"> </td>
+        <td><input id="myInput5" type="text"></td>
+      </tr>
+      <!-- 6th -->
+      <tr>
+        <td>Subject6: </td>
+        <td><input id="myCredit6" type="text"></td>
+        <td><input id="myInput6" type="text"></td>
+      </tr>
+      <!-- 7th -->
+      <tr>
+        <td> Subject7:</td>
+        <td><input id="myCredit7" type="text"></td>
+        <td><input id="myInput7" type="text"></td>
+      </tr>
+      <!-- 8th-->
+      <tr>
+        <td>Subject8:</td>
+        <td><input id="myCredit8" type="text"></td>
+        <td><input id="myInput8" type="text"></td>
+      </tr>
+      <!-- 9th-->
+      <tr>
+        <td>Subject9:</td>
+        <td><input id="myCredit9" type="text"></td>
+        <td><input id="myInput9" type="text"></td>
+      </tr>
+
+      <!-- count -->
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <button onclick="grade()">Submit</button>
+        </td>
+      </tr>
+      <tr>
+        <th>Your SGPA and percentage for the semester is:</th>
+        <td>
+          <p id="demo"></p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+
+
+<script src="calFunction.js"></script>
+
+
+</body>
+
+</html>
